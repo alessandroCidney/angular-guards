@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./account.component.scss']
 })
 export class AccountComponent {
-
+  public exit () {
+    return confirm('Você deseja sair?')
+  }
 }
