@@ -6,10 +6,11 @@ export const canLoadGuard: CanMatchFn = (route, segments) => {
   console.log(route)
   console.log(segments)
 
-  if (segments[1]?.path === 'leads') {
-    return true
-  }
+  // if (segments[1]?.path === 'leads') {
+  //   return true
+  // }
   
-  window.alert('Não carregado')
-  return false;
+  // window.alert('Não carregado')
+  // return false;
+  return true;
 };

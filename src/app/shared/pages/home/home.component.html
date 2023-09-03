@@ -24,6 +24,10 @@
 
 <a
   routerLink="core"
+  [queryParams]="{
+    account: 'admin',
+    password: '1234'
+  }"
 >
   Dashboard
 </a>
@@ -32,6 +36,10 @@
 
 <a
   routerLink="core/leads"
+  [queryParams]="{
+    account: 'admin',
+    password: '1234'
+  }"
 >
   Leads
 </a>
